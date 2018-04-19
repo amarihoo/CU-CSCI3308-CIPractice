@@ -16,6 +16,7 @@ all: geometry_test
 test: geometry_test
 	./geometry_test
 
+
 geometry_test: geometry_test.o geometry.o
 	$(CC) $(LFLAGS) $^ $(PKG_CHECK_LIBS) $(PKG_MATH_LIBS) -o $@
 
