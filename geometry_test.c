@@ -204,6 +204,7 @@ Suite* coord_2d_suite(void)
 
     TCase* tc_2d_area_triangle2 = tcase_create("coord_2d_area_triangle");
     tcase_add_test(tc_2d_area_triangle2, tc_2d_area_triangle2);
+    
     /* Add Cases to Suite */
     suite_add_tcase(s, tc_2d_eq);
     suite_add_tcase(s, tc_2d_dist);
